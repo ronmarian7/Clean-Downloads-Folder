@@ -2,12 +2,6 @@ import os
 import shutil
 import extantions
 
-
-#def insert_file_to_destination_dir(file, downloads_dir):
-#    dest_path = os.path.join(downloads_dir, file)
-#    if os.path.isdir(dest_path):
-
-
 print('DOWNLOADS FOLDER CLEANUP')
 downloads_dir = 'C:\\Users\\ronma\\Downloads'
 os.chdir(downloads_dir)
